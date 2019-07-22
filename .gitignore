@@ -6,6 +6,6 @@
 /CacheInterceptor.Test/obj/
 /LoggerInterceptor/bin/
 /LoggerInterceptor/obj/
-/TestLoggerAspect/bin/
-/TestLoggerAspect/obj/
+/LoggerInterceptor.Test/bin/
+/LoggerInterceptor.Test/obj/
 /packages/

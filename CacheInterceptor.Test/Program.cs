@@ -24,7 +24,7 @@ namespace CacheInterceptor.Test
 			        Console.Write(number+",");
 		        }
 				Console.WriteLine("-----");
-		        Thread.Sleep(3000);
+		        Thread.Sleep(2000);
 			}
 	        Console.ReadLine();
 
