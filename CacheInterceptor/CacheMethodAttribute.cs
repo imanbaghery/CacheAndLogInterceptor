@@ -8,9 +8,9 @@ namespace CacheInterceptor
 {
     public class CacheMethodAttribute:Attribute
     {
-        public CacheMethodAttribute()
+        public CacheMethodAttribute(int second)
         {
-            SecondsToCache = 10;
+            SecondsToCache = second;
         }
 
         public int SecondsToCache { get; set; }

@@ -15,7 +15,9 @@ namespace CacheInterceptor
         public void Intercept(IInvocation invocation)
         {
             CacheMethod(invocation);
-        }
+	        
+
+		}
 
         private void CacheMethod(IInvocation invocation)
         {
@@ -75,4 +77,5 @@ namespace CacheInterceptor
             return cacheMethodAttribute;
         }
     }
+
 }
