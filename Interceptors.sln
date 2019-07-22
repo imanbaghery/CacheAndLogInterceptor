@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerInterceptor", "LoggerInterceptor\LoggerInterceptor.csproj", "{2A2B4EFB-6D92-464A-BB11-E76FA182A034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerInterceptor.Test", "TestLoggerAspect\LoggerInterceptor.Test.csproj", "{07C0FB46-1FAB-4367-AC8F-3AED3FEDC9F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{76A3511A-4497-4FB0-BDC4-9D713DE40528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cache", "Cache", "{0CD3E746-4311-4ADD-B91B-6EF76D145A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheInterceptor", "CacheInterceptor\CacheInterceptor.csproj", "{36582C60-D0D0-4EE8-A46E-14DE6763C736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheInterceptor.Test", "CacheInterceptor.Test\CacheInterceptor.Test.csproj", "{4E183EB3-5C7E-4E79-81BC-9C592DD30B3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2B4EFB-6D92-464A-BB11-E76FA182A034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2B4EFB-6D92-464A-BB11-E76FA182A034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2B4EFB-6D92-464A-BB11-E76FA182A034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2B4EFB-6D92-464A-BB11-E76FA182A034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C0FB46-1FAB-4367-AC8F-3AED3FEDC9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C0FB46-1FAB-4367-AC8F-3AED3FEDC9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C0FB46-1FAB-4367-AC8F-3AED3FEDC9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C0FB46-1FAB-4367-AC8F-3AED3FEDC9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36582C60-D0D0-4EE8-A46E-14DE6763C736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36582C60-D0D0-4EE8-A46E-14DE6763C736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36582C60-D0D0-4EE8-A46E-14DE6763C736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36582C60-D0D0-4EE8-A46E-14DE6763C736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E183EB3-5C7E-4E79-81BC-9C592DD30B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E183EB3-5C7E-4E79-81BC-9C592DD30B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E183EB3-5C7E-4E79-81BC-9C592DD30B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E183EB3-5C7E-4E79-81BC-9C592DD30B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A2B4EFB-6D92-464A-BB11-E76FA182A034} = {76A3511A-4497-4FB0-BDC4-9D713DE40528}
+		{07C0FB46-1FAB-4367-AC8F-3AED3FEDC9F4} = {76A3511A-4497-4FB0-BDC4-9D713DE40528}
+		{36582C60-D0D0-4EE8-A46E-14DE6763C736} = {0CD3E746-4311-4ADD-B91B-6EF76D145A26}
+		{4E183EB3-5C7E-4E79-81BC-9C592DD30B3A} = {0CD3E746-4311-4ADD-B91B-6EF76D145A26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFE772AD-CCBB-4149-A125-CDA61839E818}
+	EndGlobalSection
+EndGlobal

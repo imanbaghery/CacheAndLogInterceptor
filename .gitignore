@@ -1,0 +1,11 @@
+/.svn
+/.vs/
+/CacheInterceptor/bin/
+/CacheInterceptor/obj/
+/CacheInterceptor.Test/bin/
+/CacheInterceptor.Test/obj/
+/LoggerInterceptor/bin/
+/LoggerInterceptor/obj/
+/TestLoggerAspect/bin/
+/TestLoggerAspect/obj/
+/packages/
