@@ -1,4 +1,4 @@
-CacheInterceptor Can Cache method with same input param in "System.Web.Caching.Cache",
+CacheInterceptor Can Cache method with same input param in "System.Web.HttpRuntime.Cache",
 for example:
 
 [CacheMethod(10)]
